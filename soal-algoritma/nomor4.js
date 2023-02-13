@@ -16,7 +16,7 @@ function diagonal2() {
      var output = 0;
      for(var i = 0; i < Matrix.length ; i++){
           for(var j = Matrix[i].length - 1; j >= 0; j--){
-               if(i+j == 2){
+               if(i+j == Matrix.length - 1){
                     output = output + Matrix[i][j];
                }
           }
